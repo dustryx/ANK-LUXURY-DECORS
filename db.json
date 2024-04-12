@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "living Room Designs",
+      "image": "https://thumbs.dreamstime.com/b/modern-interior-design-living-room-d-rendering-113798257.jpg",
+      "description": "A MODERN SUIT"
+    },
+    {
+      "id": "2",
+      "title": "Living Room Design",
+      "image": "https://media.gettyimages.com/id/1386951933/photo/3d-rendering-on-luxurious-apartment-interior.jpg?s=612x612&w=gi&k=20&c=c9tXEpUSjCFn7FV6PBe6r9rBV_unLqJ267vm2VUhJj0=",
+      "description": "Modern Architecture"
+    },
+    {
+      "id": "3",
+      "title": "Living Room Design",
+      "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1571460.jpg&fm=jpg",
+      "description": "Luxury"
+    },
+    {
+      "id": "4",
+      "title": "Kitchen",
+      "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?cs=srgb&dl=pexels-mark-1080721.jpg&fm=jpg",
+      "description": "Luxury"
+    },
+    {
+      "id": "5",
+      "title": "Kitchen",
+      "image": "https://www.oppeinhome.com/upload/images/ueditor/20230912/top-kitchen-design-ideas-that-inspire-you-6.webp",
+      "description": "kitchen updates",
+      "views": 0
+    },
+    {
+      "id": "6",
+      "title": "Bedroom",
+      "image": "https://img.freepik.com/free-photo/modern-apartment-bedroom-comfortable-bed-near-window-generative-ai_188544-7709.jpg",
+      "description": "Luxury Designs",
+      "views": 0
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+.navbar a.active {
+    color: #00abf0;
+}
+
+/* Home section styles */
+.home {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.home h2 {
+    font-size: 24px;
+    color: #00abf0;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-box a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00abf0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-box a:last-child {
+    margin-right: 0;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #00abf0;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    color: #00abf0;
+}
+
+/* About, Services, Updates, and Contact section styles */
+.about,
+.services,
+.updates,
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; /* Adjust this value to your preference */
+}

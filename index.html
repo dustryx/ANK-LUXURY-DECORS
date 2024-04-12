@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANX LUXURIOUS DECORS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">ANX LUXURY DECORS</a>
+        
+        <nav class="navbar">
+            <a href="#" id="home-link">Home</a>
+            <a href="#" id="about-link">About</a>
+            <a href="#" id="services-link">Services</a>
+            <a href="#" id="updates-link">Updates</a>
+            <a href="#" id="contact-link">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Welcome to ANX LUXURY DECORS</h1>
+            <p>Your Preferred Choice for Exquisite Interior Designs</p>
+            <div class="btn-box">
+                <a href="#" class="btn btn-primary">Hire Us</a>
+                <a href="#" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- About Section -->
+    <section class="about hidden bg-gray-100 p-8">
+        <div class="about-content">
+            <h2 class="text-2xl font-bold mb-4">About Us</h2>
+            <p>We located at Thika road ,roysambu nex to Garden City mall
+                Engage also through our social media platforms and see some of our daily designs</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services bg-gray-100 p-8 hidden">
+        <div class="services-content">
+            <h2 class="text-2xl font-bold mb-4">Our Services</h2>
+            <p>
+                artchitecural services for your residential 
+                Kitchen refurnishing and intreior Decors
+                compound design
+            </p>
+        </div>
+    </section>
+
+    <!-- Updates Section -->
+    <section class="updates bg-gray-100 p-8 hidden">
+        <div class="updates-content">
+            <h2 class="text-2xl font-bold mb-4">Latest Updates</h2>
+            <p>vist our social Media platforms to get our latest designs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact bg-gray-100 p-8 hidden">
+        <div class="contact-content">
+            <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+            <p>
+                tel no:0792760032
+                social media handles:@Dustylex
+            </p>
+        </div>
+    </section>
+
+    <!-- Container for blog posts -->
+    <div class="container mx-auto p-2 bg-gray-100 min-h-screen">
+        <h3 class="text-2xl font-bold mt-8 text-center text-red-600">INTERIOR DECORS</h3>
+        <div id="cardsContainer" class="mt-6 px-auto grid md:grid-cols-3 gap-2">
+            <!-- Append posts -->
+        </div>
+    </div>
+
+    <!-- "Add New Post" section -->
+    <div class="grid md:grid-cols-2 gap-4 container mx-auto">
+        <div class="mx-3">
+            <h2 class="section-title">Add New Post</h2>
+            <form id="postForm" class="max-w-md mx-auto">
+                <div class="form-group">
+                    <label for="title" class="block text-gray-700 text-sm font-bold mb-2">Title</label>
+                    <input type="text" id="title" class="form-control appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter title" required />
+                </div>
+                <div class="form-group">
+                    <label for="image" class="block text-gray-700 text-sm font-bold mb-2">Image Link</label>
+                    <input type="text" id="image" class="form-control appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter image link" required />
+                </div>
+                <div class="form-group">
+                    <label for="description" class="block text-gray-700 text-sm font-bold mb-2">Description</label>
+                    <textarea id="description" rows="3" class="form-control resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter description" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container mx-auto">
+            <p class="text-center">&copy; 2024 ANX LUXURY DECORS. All rights reserved.</p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Licensing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
